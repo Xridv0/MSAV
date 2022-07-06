@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/radioB5.1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ingresaAsistenciaProfesor">
+
+    <EditText
+        android:id="@+id/string3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="24dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/ingrese_rut_alumno"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        app:layout_constraintBottom_toTopOf="@+id/date5.1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/date5.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="45dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/ingrese_fecha"
+        android:inputType="date"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/string3" />
+
+    <Button
+        android:id="@+id/b5.1"
+        android:layout_width="155dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="338dp"
+        android:text="@string/ingresar_asistencia"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/radioGroup"
+        app:layout_constraintTop_toBottomOf="@+id/date5.1" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="81dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="330dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/b5.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date5.1">
+
+        <RadioButton
+            android:id="@+id/radiobutton5.2"
+            android:layout_width="77dp"
+            android:layout_height="48dp"
+            android:text="@string/falto" />
+
+        <RadioButton
+            android:id="@+id/radioButton5.1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/asistio" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/b5.2"
+        android:layout_width="118dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="160dp"
+        android:text="@string/retornar_menu_anterior"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ingresaAnotacionProfesor">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="27dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/ingrese_rut_alumno"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="227dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="482dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/ingrese_anotacion"
+        android:inputType="textMultiLine"
+        android:textColorHint="#757575"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        android:autofillHints="" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="176dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="326dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine">
+
+        <RadioButton
+            android:id="@+id/radioButton6.1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/positiva" />
+
+        <RadioButton
+            android:id="@+id/radioButton6.2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/negativa" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/b6.1"
+        android:layout_width="162dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="217dp"
+        android:text="@string/ingresar_anotacion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup2" />
+
+    <Button
+        android:id="@+id/b6.2"
+        android:layout_width="148dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginBottom="105dp"
+        android:text="@string/retornar_menu_anterior"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b6.1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

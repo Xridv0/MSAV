@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">ProyectoDAA</string>
+    <string name="profesor">Profesor</string>
+    <string name="estudiante_apoderado">Estudiante/Apoderado</string>
+    <string name="ingresar_nota">Ingresar nota</string>
+    <string name="ingresar_asistencia">Ingresar Asistencia</string>
+    <string name="ingresar_anotaciones">Ingresar Anotaciones</string>
+    <string name="menu_principal">Menu Principal</string>
+    <string name="boton_consulta">Boton Consulta</string>
+    <string name="ver_notas">Ver Notas</string>
+    <string name="ver_asistencia">Ver Asistencia</string>
+    <string name="ver_anotaciones">Ver Anotaciones</string>
+    <string name="rut_estudiante">rut estudiante</string>
+    <string name="nota_estudiante">nota estudiante</string>
+    <string name="asignatura">Asignatura</string>
+    <string name="retornar_menu_anterior">Retornar menu anterior</string>
+    <string name="ingrese_fecha">Ingrese fecha</string>
+    <string name="asistio_si_o_no">Asistio: si o no</string>
+    <string name="ingrese_rut_alumno">ingrese rut alumno</string>
+    <string name="asistio">Asistio</string>
+    <string name="falto">Falto</string>
+    <string name="ingrese_anotacion">ingrese Anotacion</string>
+    <string name="positiva">positiva</string>
+    <string name="negativa">negativa</string>
+    <string name="ingresar_anotacion">Ingresar anotacion</string>
+    <string name="ingrese_su_rut">ingrese su rut</string>
+    <string name="ingrese_asignatura">ingrese asignatura</string>
+    <string name="notas">notas</string>
+    <string name="ingrese_rut_a_buscar">ingrese rut a buscar</string>
+    <string name="anotaciones">anotaciones</string>
+    <string name="buscar">buscar</string>
+    <string name="asistencia">asistencia</string>
+    <string name="base">base</string>
+    <string name="ingrese_su_id">ingrese su id</string>
+    <string name="ingrese_su_contrase_a">ingrese su contraseña</string>
+    <string name="entrar">Entrar</string>
+</resources>
